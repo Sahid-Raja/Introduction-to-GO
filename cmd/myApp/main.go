@@ -6,4 +6,5 @@ import (
 
 func main() {
 	basic.Hello()
+	basic.Values()
 }
