@@ -5,7 +5,7 @@ import (
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/hello"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/values"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/constants"
-	"github.com/Sahid-Raja/Introduction-to-GO/pkg/loops"
+	"github.com/Sahid-Raja/Introduction-to-GO/pkg/conditions"
 )
 
 func main() {
@@ -13,5 +13,6 @@ func main() {
 	// values.Values()
 	// variables.Variables()
 	// constants.Constants()
-	loops.Loops()
+	// loops.Loops()
+	conditions.Conditions(34, "Male")
 }
