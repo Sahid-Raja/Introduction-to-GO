@@ -3,7 +3,7 @@ package loops
 import (
 	"fmt"
 
-	days "github.com/Sahid-Raja/Introduction-to-GO/pkg/switch"
+	swtch "github.com/Sahid-Raja/Introduction-to-GO/pkg/switch"
 )
 
 // Loops demonstrates different loop types in Go.
@@ -15,7 +15,7 @@ func Loops() {
 	// Loop through the days and print the day names.
 	i := 0
 	for i <= 7 {
-		fmt.Println(days.Days(i)) // Get day name using 'Switch'
+		fmt.Println(swtch.Days(i)) // Get day name using 'Switch'
 		i++
 	}
 

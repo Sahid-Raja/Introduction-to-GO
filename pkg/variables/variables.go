@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	days "github.com/Sahid-Raja/Introduction-to-GO/pkg/switch"
-	// Importing the 'days' package where the 'Switch' function is defined to get the name of the day.
+	swtch "github.com/Sahid-Raja/Introduction-to-GO/pkg/switch"
+	// Importing the 'swtch' package where the 'Switch' function is defined to get the name of the day.
 )
 
 // Variables demonstrates variable declarations, printing their values,
@@ -13,7 +13,7 @@ import (
 //
 // It performs the following:
 // - Declares variables of different types (integer, floating-point, boolean, and string).
-// - Uses the 'Switch' function from the 'days' package to get the day of the week based on the current date.
+// - Uses the 'Switch' function from the 'swtch' package to get the day of the week based on the current date.
 // - Prints the values of the variables and a formatted greeting message that includes the name and the current day.
 //
 // Example:
@@ -33,6 +33,6 @@ func Variables() {
 
 	var greet string = "Hello!! "
 	var name, dayInt = "Sahid Raja Ansari", time.Now().Day()
-	s := fmt.Sprintf(greet + name + " and today's day is " + days.Days(dayInt))
+	s := fmt.Sprintf(greet + name + " and today's day is " + swtch.Days(dayInt))
 	println(s)
 }

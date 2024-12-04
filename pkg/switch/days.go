@@ -1,4 +1,4 @@
-package days
+package swtch
 
 func Days(dayInt int) (day string) {
 	switch dayInt {
