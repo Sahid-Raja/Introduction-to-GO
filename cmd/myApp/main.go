@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/Sahid-Raja/Introduction-to-GO/pkg/basic"
+	"github.com/Sahid-Raja/Introduction-to-GO/pkg/hello"
+	"github.com/Sahid-Raja/Introduction-to-GO/pkg/values"
 )
 
 func main() {
-	basic.Hello()
-	basic.Values()
+	hello.Hello()
+	values.Values()
 }
