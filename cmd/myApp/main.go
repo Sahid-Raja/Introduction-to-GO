@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"github.com/Sahid-Raja/Introduction-to-GO/pkg/basic"
 )
 
 func main() {
-	fmt.Print("Hello World")
+	basic.Hello()
 }
