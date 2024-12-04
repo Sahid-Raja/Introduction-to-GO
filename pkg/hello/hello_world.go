@@ -14,6 +14,5 @@ import (
 //	Hello() prints:
 //	  Hello World
 func Hello() {
-	// Output the greeting message to the console.
 	fmt.Print("Hello World")
 }

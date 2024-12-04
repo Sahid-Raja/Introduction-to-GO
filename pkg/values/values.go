@@ -24,22 +24,11 @@ func Values() {
 	var lastName string = "Ansari"
 	var eightBitNum int8 = 127
 	floatNum := 25.0 / 7.0
-
-	// Output the concatenated full name.
 	fmt.Println(firstName + " " + lastName)
-
-	// Output the 8-bit integer value.
 	fmt.Println(eightBitNum)
-
-	// Output the result of the floating-point division.
 	fmt.Println(floatNum)
 
-	// Output the result of a logical AND operation (false).
 	fmt.Println(true && false)
-
-	// Output the result of a logical OR operation (true).
 	fmt.Println(true || false)
-
-	// Output the result of a logical NOT operation (true).
 	fmt.Println(!false)
 }
