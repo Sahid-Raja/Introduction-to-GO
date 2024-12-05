@@ -24,5 +24,6 @@ func main() {
 	// array.ArrayTwoD()
 	// slice.Slice()
 	// maps.Maps()
-	functions.Functions()
+	// functions.Functions()
+	functions.MultipleFunctions()
 }
