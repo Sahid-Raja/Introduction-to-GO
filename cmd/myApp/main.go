@@ -25,5 +25,6 @@ func main() {
 	// slice.Slice()
 	// maps.Maps()
 	// functions.Functions()
-	functions.MultipleFunctions()
+	// functions.MultipleFunctions()
+	functions.VariadicFunctions()
 }
