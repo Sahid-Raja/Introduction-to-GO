@@ -8,7 +8,7 @@ import (
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/conditions"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/switch"
 	// array "github.com/Sahid-Raja/Introduction-to-GO/pkg/Array"
-	"github.com/Sahid-Raja/Introduction-to-GO/pkg/slice"
+	"github.com/Sahid-Raja/Introduction-to-GO/pkg/maps"
 )
 
 func main() {
@@ -21,5 +21,6 @@ func main() {
 	// swtch.SwitchFunction()
 	// array.ArrayOneD()
 	// array.ArrayTwoD()
-	slice.Slice()
+	// slice.Slice()
+	maps.Maps()
 }
