@@ -1,20 +1,23 @@
 package main
 
-import "github.com/Sahid-Raja/Introduction-to-GO/pkg/pointers"
+import (
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/pointers"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/variables"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/hello"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/values"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/constants"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/conditions"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/switch"
+	// array "github.com/Sahid-Raja/Introduction-to-GO/pkg/Array"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/closures"
 
-// "github.com/Sahid-Raja/Introduction-to-GO/pkg/variables"
-// "github.com/Sahid-Raja/Introduction-to-GO/pkg/hello"
-// "github.com/Sahid-Raja/Introduction-to-GO/pkg/values"
-// "github.com/Sahid-Raja/Introduction-to-GO/pkg/constants"
-// "github.com/Sahid-Raja/Introduction-to-GO/pkg/conditions"
-// "github.com/Sahid-Raja/Introduction-to-GO/pkg/switch"
-// array "github.com/Sahid-Raja/Introduction-to-GO/pkg/Array"
-// "github.com/Sahid-Raja/Introduction-to-GO/pkg/closures"
-
-// "github.com/Sahid-Raja/Introduction-to-GO/pkg/pointers"
-// "github.com/Sahid-Raja/Introduction-to-GO/pkg/recurssion"
-// "github.com/Sahid-Raja/Introduction-to-GO/pkg/functions"
-// "github.com/Sahid-Raja/Introduction-to-GO/pkg/maps"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/pointers"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/recurssion"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/functions"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/maps"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/pointers"
+	"github.com/Sahid-Raja/Introduction-to-GO/pkg/strings"
+)
 
 func main() {
 	// hello.Hello()
@@ -34,5 +37,6 @@ func main() {
 	// closures.Closures()
 	// recurssion.Recurssion()
 	// loops.RangeS()
-	pointers.Pointers()
+	// pointers.Pointers()
+	strings.Strings()
 }
