@@ -41,5 +41,6 @@ func main() {
 	// loops.RangeS()
 	// pointers.Pointers()
 	// strings.Strings()
-	structures.Structures()
+	// structures.Structures()
+	structures.Methods()
 }
