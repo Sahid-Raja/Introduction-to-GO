@@ -8,7 +8,8 @@ import (
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/conditions"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/switch"
 	// array "github.com/Sahid-Raja/Introduction-to-GO/pkg/Array"
-	"github.com/Sahid-Raja/Introduction-to-GO/pkg/functions"
+	"github.com/Sahid-Raja/Introduction-to-GO/pkg/closures"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/functions"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/maps"
 )
 
@@ -26,5 +27,6 @@ func main() {
 	// maps.Maps()
 	// functions.Functions()
 	// functions.MultipleFunctions()
-	functions.VariadicFunctions()
+	// functions.VariadicFunctions()
+	closures.Closures()
 }
