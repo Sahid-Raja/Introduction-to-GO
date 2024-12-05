@@ -9,7 +9,8 @@ import (
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/switch"
 	// array "github.com/Sahid-Raja/Introduction-to-GO/pkg/Array"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/closures"
-	"github.com/Sahid-Raja/Introduction-to-GO/pkg/recurssion"
+	"github.com/Sahid-Raja/Introduction-to-GO/pkg/loops"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/recurssion"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/functions"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/maps"
 )
@@ -30,5 +31,6 @@ func main() {
 	// functions.MultipleFunctions()
 	// functions.VariadicFunctions()
 	// closures.Closures()
-	recurssion.Recurssion()
+	// recurssion.Recurssion()
+	loops.RangeS()
 }
