@@ -16,7 +16,9 @@ import (
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/functions"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/maps"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/pointers"
-	"github.com/Sahid-Raja/Introduction-to-GO/pkg/strings"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/strings"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/strings"
+	"github.com/Sahid-Raja/Introduction-to-GO/pkg/structures"
 )
 
 func main() {
@@ -38,5 +40,6 @@ func main() {
 	// recurssion.Recurssion()
 	// loops.RangeS()
 	// pointers.Pointers()
-	strings.Strings()
+	// strings.Strings()
+	structures.Structures()
 }
