@@ -42,5 +42,6 @@ func main() {
 	// pointers.Pointers()
 	// strings.Strings()
 	// structures.Structures()
-	structures.Methods()
+	// structures.Methods()
+	structures.Interfaces()
 }
