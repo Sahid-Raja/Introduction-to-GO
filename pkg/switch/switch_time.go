@@ -19,4 +19,9 @@ func SwitchFunction() {
 	default:
 		fmt.Println("Type not Known")
 	}
+
+	//TODO:Write Here
+	// typeOFNum := func(i interface{}){
+	// 	switch num
+	// }
 }
