@@ -7,7 +7,8 @@ import (
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/constants"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/conditions"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/switch"
-	array "github.com/Sahid-Raja/Introduction-to-GO/pkg/Array"
+	// array "github.com/Sahid-Raja/Introduction-to-GO/pkg/Array"
+	"github.com/Sahid-Raja/Introduction-to-GO/pkg/slice"
 )
 
 func main() {
@@ -19,5 +20,6 @@ func main() {
 	// conditions.Conditions(34, "Male")
 	// swtch.SwitchFunction()
 	// array.ArrayOneD()
-	array.ArrayTwoD()
+	// array.ArrayTwoD()
+	slice.Slice()
 }

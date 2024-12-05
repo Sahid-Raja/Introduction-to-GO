@@ -2,12 +2,11 @@ package array
 
 import "fmt"
 
-func pascalTriangle(n int) {
+func pascalTriangle() {
 
-	var arr = make([][]int, n)
+	var arr [5][5]int
 
-	for i := 0; i < n; i++ {
-		arr[i] = make([]int, i+1)
+	for i := 0; i < 5; i++ {
 		arr[i][0] = 1
 		arr[i][i] = 1
 		for j := 1; j < i; j++ {
@@ -37,5 +36,5 @@ func ArrayTwoD() {
 	//     {1, 2, 3},
 	// }
 	// fmt.Println("2d: ", twoD)
-	pascalTriangle(5)
+	pascalTriangle()
 }
