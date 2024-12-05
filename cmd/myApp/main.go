@@ -8,7 +8,8 @@ import (
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/conditions"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/switch"
 	// array "github.com/Sahid-Raja/Introduction-to-GO/pkg/Array"
-	"github.com/Sahid-Raja/Introduction-to-GO/pkg/maps"
+	"github.com/Sahid-Raja/Introduction-to-GO/pkg/functions"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/maps"
 )
 
 func main() {
@@ -22,5 +23,6 @@ func main() {
 	// array.ArrayOneD()
 	// array.ArrayTwoD()
 	// slice.Slice()
-	maps.Maps()
+	// maps.Maps()
+	functions.Functions()
 }
