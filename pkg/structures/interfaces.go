@@ -26,10 +26,15 @@ func (r *rectangle) iPrimeter() float64 {
 	return 2 * (float64(r.breadth) + float64(r.length))
 }
 
+func findArea(g geometry) float64 {
+	return g.iArea()
+}
+
 func Interfaces() {
-	c := circle{5}
+	c := &circle{5}
 	r := rectangle{10, 20}
 	fmt.Printf("Area is %v \n", c.iArea())
+	fmt.Printf("Area is %v \n", findArea(c))
 	fmt.Printf("Perimeter is %v \n", c.iPrimeter())
 	fmt.Printf("Area of Rectange is %v \n", r.area())
 	fmt.Printf("Length of Rectange is %v \n", r.iPrimeter())

@@ -18,7 +18,9 @@ import (
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/pointers"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/strings"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/strings"
-	"github.com/Sahid-Raja/Introduction-to-GO/pkg/enum"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/enum"
+	errorhandling "github.com/Sahid-Raja/Introduction-to-GO/pkg/errorHandling"
+	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/structures"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/structures"
 )
 
@@ -45,5 +47,8 @@ func main() {
 	// structures.Structures()
 	// structures.Methods()
 	// structures.Interfaces()
-	enum.Enum()
+	// enum.Enum()
+	// structures.EmbeddedStructures()
+	// errorhandling.ErrorHandling()
+	errorhandling.CustomErrorHandling()
 }
