@@ -55,5 +55,6 @@ func main() {
 	// goroutines.Goroutines()
 	// goroutines.Channel()
 	// goroutines.ChannelSyncronization()
-	goroutines.SelectChannel()
+	// goroutines.SelectChannel()
+	goroutines.TimeOut()
 }
