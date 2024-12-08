@@ -54,5 +54,6 @@ func main() {
 	// errorhandling.CustomErrorHandling()
 	// goroutines.Goroutines()
 	// goroutines.Channel()
-	goroutines.ChannelSyncronization()
+	// goroutines.ChannelSyncronization()
+	goroutines.SelectChannel()
 }
