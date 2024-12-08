@@ -19,7 +19,8 @@ import (
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/strings"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/strings"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/enum"
-	errorhandling "github.com/Sahid-Raja/Introduction-to-GO/pkg/errorHandling"
+	// errorhandling "github.com/Sahid-Raja/Introduction-to-GO/pkg/errorHandling"
+	goroutines "github.com/Sahid-Raja/Introduction-to-GO/pkg/goRoutines"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/structures"
 	// "github.com/Sahid-Raja/Introduction-to-GO/pkg/structures"
 )
@@ -50,5 +51,8 @@ func main() {
 	// enum.Enum()
 	// structures.EmbeddedStructures()
 	// errorhandling.ErrorHandling()
-	errorhandling.CustomErrorHandling()
+	// errorhandling.CustomErrorHandling()
+	// goroutines.Goroutines()
+	// goroutines.Channel()
+	goroutines.ChannelSyncronization()
 }
